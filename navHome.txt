@@ -1,0 +1,5 @@
+<ul class="nav navbar-nav navbar-right">
+	<li class="active"><a href="index.html">Home</a></li>
+	<li class="social"><a class="facebook" href="https://www.facebook.com/selfmanagescleroderma/" target="_blank">Facebook</a></li>
+	<li class="social"><a class="twitter" href="https://twitter.com/sclerodermaUM" target="_blank">Twitter</a></li>
+</ul>

@@ -7,6 +7,12 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="css/bootstrap.min.css">
 	  <link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+	jQuery(function(){
+		jQuery("#bs-example-navbar-collapse-1").load("navHome.txt"); 
+	});
+	</script>
 	</head>
 	<body>
 		<header>
@@ -23,11 +29,7 @@
 
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="modules.html">Modules</a></li>
-							<li><a href="resources.html">Resources</a></li>
-						</ul>
+				
 					</div>
 			
 				</div>
@@ -51,6 +53,21 @@
 			<div class="page-content home-content">
 				<div class="container">
 					<div class="row">
+						<div class="col-md-12">
+							<h4>In Collaboration with:</h4>
+							<div class="collaboration">
+								<ul>
+									<li><img src="images/collab/university-of-michigan.JPG"></li>
+									<li><img src="images/collab/the-university-of-new-mexico.JPG"></li>
+									<li><img src="images/collab/scleroderma-foundation.PNG"></li>
+									<li><img src="images/collab/scleroderma-research-foundation.PNG"></li>
+									
+									<li><img src="images/collab/ncori.JPG"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-8">
 							<h1>The Power is in Your Hands</h1>
 							<p>
@@ -63,7 +80,7 @@
 								<h1>Ready to Start?</h1>
 								<p>Just click the button<br />below to begin</p>
 								<br />
-								<a href="modules.html" class="btn btn-primary btn-lg">Begin</a>
+								<a href="modules.html" id="homepage-survey-cta" class="btn btn-primary btn-lg">Begin</a>
 							</div>
 						</div>	
 					</div>

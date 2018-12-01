@@ -1,0 +1,7 @@
+<ul class="nav navbar-nav navbar-right">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="modules.html">Modules</a></li>
+	<li><a href="resources.html">Resources</a></li>
+	<li class="social"><a class="facebook" href="https://www.facebook.com/selfmanagescleroderma/" target="_blank">Facebook</a></li>
+	<li class="social"><a class="twitter" href="https://twitter.com/sclerodermaUM" target="_blank">Twitter</a></li>
+</ul>
